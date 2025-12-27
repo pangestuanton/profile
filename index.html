@@ -5,7 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pangestu Anton Widodo</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- CSS KHUSUS GALERI FOTO -->
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-top: 25px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+        }
+    </style>
 </head>
+
 <body>
 
 <nav class="navbar">
@@ -20,7 +45,6 @@
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
-
 
 <section id="home" class="hero">
     <h2>PANGESTU ANTON WIDODO</h2>
@@ -43,22 +67,10 @@
 <section id="education" class="section soft">
     <h3>Riwayat Pendidikan</h3>
     <div class="timeline">
-        <div class="edu">
-            <span>2012 - 2013</span>
-            <p>TK Nur Fadillah</p>
-        </div>
-        <div class="edu">
-            <span>2013 - 2019</span>
-            <p>SDN 1 Penantian</p>
-        </div>
-        <div class="edu">
-            <span>2019 - 2022</span>
-            <p>SMPN 1 Sumberejo</p>
-        </div>
-        <div class="edu">
-            <span>2022 - 2025</span>
-            <p>SMAN 1 Sumberejo</p>
-        </div>
+        <div class="edu"><span>2012 - 2013</span><p>TK Nur Fadillah</p></div>
+        <div class="edu"><span>2013 - 2019</span><p>SDN 1 Penantian</p></div>
+        <div class="edu"><span>2019 - 2022</span><p>SMPN 1 Sumberejo</p></div>
+        <div class="edu"><span>2022 - 2025</span><p>SMAN 1 Sumberejo</p></div>
         <div class="edu active">
             <span>2025 - Sekarang</span>
             <p>Institut Teknologi Sumatera<br><small>S1 Teknik Informatika</small></p>
@@ -66,30 +78,13 @@
     </div>
 </section>
 
-<!-- PENGALAMAN & PRESTASI -->
 <section id="experience" class="section">
     <h3>Pengalaman & Prestasi</h3>
-
     <div class="cards">
-        <div class="card highlight">
-            <h4></h4>
-            <p><strong>Juara 2 OSN-K Informatika</strong><br>2024</p>
-        </div>
-
-        <div class="card">
-            <h4></h4>
-            <p>PASKIBRA Kecamatan Sumberejo<br>2022</p>
-        </div>
-
-        <div class="card">
-            <h4></h4>
-            <p>Pengurus MPK/OSIS<br>SMAN 1 Sumberejo<br>2022 – 2023</p>
-        </div>
-
-        <div class="card">
-            <h4></h4>
-            <p>Pemangku Adat<br>Ambalan Sukanda–Laksma<br>2024</p>
-        </div>
+        <div class="card highlight"><p><strong>Juara 2 OSN-K Informatika</strong><br>2024</p></div>
+        <div class="card"><p>Paskibra Kecamatan Sumberejo<br>2022</p></div>
+        <div class="card"><p>Pengurus MPK/OSIS<br>2022 – 2023</p></div>
+        <div class="card"><p>Pemangku Adat<br>Ambalan Sukanda–Laksma<br>2024</p></div>
     </div>
 </section>
 
@@ -103,14 +98,13 @@
     </div>
 </section>
 
-    <section id="gallery" class="section soft">
+<section id="gallery" class="section soft">
     <h3>Galeri Foto</h3>
-
     <div class="gallery">
-        <img src="SMP.jpg" alt="Foto 1">
-        <img src="DES 2025.jpg" alt="Foto 2">
-        <img src="foto3.jpg" alt="Foto 3">
-        <img src="foto4.jpg" alt="Foto 4">
+        <img src="SMP.jpg" alt="Foto SMP">
+        <img src="DES 2025.jpg" alt="Foto Desember 2025">
+        <img src="SMP.jpg" alt="Foto ku SMP">
+        <img src="DES 2025.jpg" alt="Foto 2025">
     </div>
 </section>
 
@@ -122,15 +116,9 @@
     <p>Facebook: Pangestu Anton Widodo</p>
 </section>
 
-
 <footer>
     <p>© 2025 Pangestu Anton Widodo</p>
 </footer>
 
 </body>
-
 </html>
-
-
-
-
