@@ -5,7 +5,7 @@
 **Nama:** Pangestu Anton Widodo  
 **NIM:** 125140069  
 
-## Deskripsi Kegiatan
+## Deskripsi
 
 Repository ini dibuat dalam rangka kegiatan **PRA LDOP ARITHMATIC 8.0**.  
 Tugas ini berisi informasi identitas peserta (html, css, dan js) serta tautan desain dan prototype yang telah dibuat menggunakan Figma.
